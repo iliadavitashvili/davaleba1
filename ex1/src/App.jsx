@@ -28,6 +28,7 @@ function App() {
     <>
       <h1>
         name: {name} surname: {surName}
+        test test
       </h1>
       {icons.map((icon) => (
         <CustomImage img={icon} key={icon} />
